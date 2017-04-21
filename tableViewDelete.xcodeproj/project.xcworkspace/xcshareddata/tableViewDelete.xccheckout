@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C61A37B0-0B13-46D3-9EDE-B072F9DEB3A3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>tableViewDelete</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EF8AD460BF5B51D5181E7BA64529D234F7AF2990</key>
+		<string>https://github.com/sza623062360/-.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>tableViewDelete/tableViewDelete.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EF8AD460BF5B51D5181E7BA64529D234F7AF2990</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/sza623062360/-.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EF8AD460BF5B51D5181E7BA64529D234F7AF2990</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EF8AD460BF5B51D5181E7BA64529D234F7AF2990</string>
+			<key>IDESourceControlWCCName</key>
+			<string>%E6%96%BD%E6%B2%BB%E6%98%82</string>
+		</dict>
+	</array>
+</dict>
+</plist>

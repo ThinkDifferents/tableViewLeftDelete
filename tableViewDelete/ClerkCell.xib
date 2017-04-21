@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ClerkCell" rowHeight="93" id="KGk-i7-Jjw" customClass="ClerkCell">
+            <rect key="frame" x="0.0" y="0.0" width="402" height="93"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="402" height="93"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Snip20161215_6" translatesAutoresizingMaskIntoConstraints="NO" id="YiB-03-Daz">
+                        <rect key="frame" x="13" y="13" width="63.5" height="66.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="YiB-03-Daz" secondAttribute="height" multiplier="24:25" id="QAD-4N-2eA"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="郝云" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lXs-bf-6wt">
+                        <rect key="frame" x="86.5" y="15" width="37" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="电话 : 13910733521" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DZI-5R-mOM">
+                        <rect key="frame" x="86.5" y="59.5" width="135" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="lXs-bf-6wt" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="7F5-vQ-ag0"/>
+                    <constraint firstItem="lXs-bf-6wt" firstAttribute="leading" secondItem="YiB-03-Daz" secondAttribute="trailing" constant="10" id="Ald-bA-e6L"/>
+                    <constraint firstItem="DZI-5R-mOM" firstAttribute="leading" secondItem="YiB-03-Daz" secondAttribute="trailing" constant="10" id="Sha-ma-RRp"/>
+                    <constraint firstItem="YiB-03-Daz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="5" id="UCt-RI-Tbj"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="YiB-03-Daz" secondAttribute="bottom" constant="5" id="gv3-5E-aJ2"/>
+                    <constraint firstItem="YiB-03-Daz" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="k61-lw-Sv2"/>
+                    <constraint firstAttribute="bottom" secondItem="DZI-5R-mOM" secondAttribute="bottom" constant="15" id="zCK-xJ-SUf"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="name" destination="lXs-bf-6wt" id="sDx-52-RL5"/>
+            </connections>
+            <point key="canvasLocation" x="115" y="-121"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Snip20161215_6" width="77" height="69"/>
+    </resources>
+</document>
